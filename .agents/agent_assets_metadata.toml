@@ -1,0 +1,56 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "PHalpZo0vAGk58ILuwdRZ"
+uri = "file://picture/01_overview_top.jpg"
+type = "image"
+title = "01 — Tổng quan: Header + KPI + Sidebar (chụp thực tế)"
+
+[[outputs]]
+id = "dVbqdMSlYI18PQDWNBJj2"
+uri = "file://picture/01_kpi_cards.jpg"
+type = "image"
+title = "02 — KPI Cards: Total Records / Failures / Rate / Top Failure"
+
+[[outputs]]
+id = "46Ez-MHZ2ZlwRjy1ExtQ_"
+uri = "file://picture/02_failure_distribution_bar.jpg"
+type = "image"
+title = "03 — Biểu đồ cột: Failure Distribution by Type"
+
+[[outputs]]
+id = "G7vBspe_-0XZGBAXJl_BJ"
+uri = "file://picture/03_monthly_trend_line.jpg"
+type = "image"
+title = "04 — Biểu đồ đường: Monthly Failure Trend 2023"
+
+[[outputs]]
+id = "LnR-GvZW3ZEM-Ts3iVyO_"
+uri = "file://picture/04_machine_condition_scatter.jpg"
+type = "image"
+title = "05 — Scatter plot: Machine Condition vs Failure Rate"
+
+[[outputs]]
+id = "Ned03-9aIjuO629aD3M39"
+uri = "file://picture/05_product_quality_bar.jpg"
+type = "image"
+title = "06 — Biểu đồ cột: Failure Rate by Product Quality"
+
+[[outputs]]
+id = "QA8ABwESpwjUhxPXY67mq"
+uri = "file://picture/06_data_tables.jpg"
+type = "image"
+title = "07 — Bảng dữ liệu: 4 OLAP datasets"
+
+[[outputs]]
+id = "yhNIu9VoFboFd6t-tVU7K"
+uri = "file://picture/07_sidebar_filters.jpg"
+type = "image"
+title = "08 — Sidebar Filters: Failure Types / Months / Conditions"
+
+[[outputs]]
+id = "HIoBS7NNT7HXcyv1C3ASZ"
+uri = "file://picture/08_full_dashboard_composite.jpg"
+type = "image"
+title = "09 — Full Dashboard Composite (tất cả charts gộp lại)"
