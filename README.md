@@ -5,18 +5,6 @@
 
 ---
 
-## 📸 Preview
-
-| Dashboard Overview | Failure Distribution | Monthly Trend |
-|---|---|---|
-| ![Overview](picture/01_overview_top.jpg) | ![Bar](picture/02_failure_distribution_bar.jpg) | ![Line](picture/03_monthly_trend_line.jpg) |
-
-| Machine Condition | Product Quality | Full Composite |
-|---|---|---|
-| ![Scatter](picture/04_machine_condition_scatter.jpg) | ![Quality](picture/05_product_quality_bar.jpg) | ![Full](picture/08_full_dashboard_composite.jpg) |
-
----
-
 ## 📁 Cấu trúc thư mục
 
 ```
@@ -60,8 +48,8 @@
                     │  dim_date    │
                     └──────┬───────┘
                            │
-┌──────────────┐    ┌──────┴───────────────────┐    ┌───────────────────────┐
-│  dim_product │────│  fact_machine_operations  │────│   dim_failure_type    │
+┌──────────────┐    ┌──────┴───────────────────┐    ┌───────────────────────┐ 
+│  dim_product │────│  fact_machine_operations │────│   dim_failure_type    │
 └──────────────┘    └──────┬───────────────────┘    └───────────────────────┘
                            │
                     ┌──────┴──────────────────┐

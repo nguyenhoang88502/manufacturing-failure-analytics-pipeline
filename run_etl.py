@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # ============================================================
-# DATABASE CONNECTION (uses Replit environment variables)
+# DATABASE CONNECTION
 # ============================================================
 DATABASE_URL = os.environ.get('DATABASE_URL')
 if not DATABASE_URL:
