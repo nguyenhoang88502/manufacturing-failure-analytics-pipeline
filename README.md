@@ -1015,7 +1015,7 @@ Important path and credential note: this file contains hard-coded database setti
 
 ```python
 DB_USER = "postgres"
-DB_PASSWORD = "885028"
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "")  # Set via environment variable
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "co4031_dw"

@@ -533,7 +533,7 @@ warnings.filterwarnings('ignore')
 # ============================================================
 # Change these if your PostgreSQL settings are different:
 DB_USER = "postgres"
-DB_PASSWORD = "885028" # your PostgreSQL password
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "") # your PostgreSQL password
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "co4031_dw"
@@ -725,7 +725,7 @@ warnings.filterwarnings('ignore')
 # CONNECTION CONFIGURATION
 # ============================================================
 DB_USER = "postgres"
-DB_PASSWORD = "885028" # Update this to your actual password!
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "") # Update this to your actual password!
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "co4031_dw"
